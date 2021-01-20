@@ -1,0 +1,674 @@
+[
+  {
+    "price": {
+      "cpm": 500,
+      "currency": "USD"
+    },
+    "sizes": [
+      {
+        "h": 60,
+        "w": 468
+      },
+      {
+        "h": 90,
+        "w": 728
+      }
+    ],
+    "dealId": 100001,
+    "source": "pgVendor1",
+    "status": "active",
+    "accountId": 1001,
+    "targeting": {
+      "$and": [
+        {
+          "adunit.size": {
+            "$intersects": [
+              {
+                "h": 60,
+                "w": 468
+              },
+              {
+                "h": 90,
+                "w": 728
+              }
+            ]
+          }
+        },
+        {
+          "adunit.mediatype": {
+            "$intersects": [
+              "banner"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.country": {
+            "$in": [
+              "us"
+            ]
+          }
+        }
+      ]
+    },
+    "lineItemId": "pgVendor1-1001",
+    "endTimeStamp": "2020-08-21T16:57:00Z",
+    "frequencyCaps": [
+      {
+        "count": 24000000,
+        "fcapId": "pgVendor1-LI-1001",
+        "periods": 1,
+        "periodType": "hour"
+      }
+    ],
+    "startTimeStamp": "2020-08-21T11:22:00Z",
+    "relativePriority": 3,
+    "updatedTimeStamp": "2020-08-21T11:02:00Z",
+    "deliverySchedules": [
+      {
+        "planId": "c32a94a4-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T11:57:00Z",
+        "startTimeStamp": "2020-08-21T11:52:00Z",
+        "updatedTimeStamp": "2020-08-21T11:32:00.000Z"
+      },
+      {
+        "planId": "c32a96ca-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:02:00Z",
+        "startTimeStamp": "2020-08-21T11:57:00Z",
+        "updatedTimeStamp": "2020-08-21T11:37:00.000Z"
+      },
+      {
+        "planId": "c32a98e6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:07:00Z",
+        "startTimeStamp": "2020-08-21T12:02:00Z",
+        "updatedTimeStamp": "2020-08-21T11:42:00.000Z"
+      },
+      {
+        "planId": "c32a9b02-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:12:00Z",
+        "startTimeStamp": "2020-08-21T12:07:00Z",
+        "updatedTimeStamp": "2020-08-21T11:47:00.000Z"
+      },
+      {
+        "planId": "c32a9d1e-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:17:00Z",
+        "startTimeStamp": "2020-08-21T12:12:00Z",
+        "updatedTimeStamp": "2020-08-21T11:52:00.000Z"
+      },
+      {
+        "planId": "c32a9f30-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:22:00Z",
+        "startTimeStamp": "2020-08-21T12:17:00Z",
+        "updatedTimeStamp": "2020-08-21T11:57:00.000Z"
+      },
+      {
+        "planId": "c32aa174-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:27:00Z",
+        "startTimeStamp": "2020-08-21T12:22:00Z",
+        "updatedTimeStamp": "2020-08-21T12:02:00.000Z"
+      },
+      {
+        "planId": "c32aa3ae-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:32:00Z",
+        "startTimeStamp": "2020-08-21T12:27:00Z",
+        "updatedTimeStamp": "2020-08-21T12:07:00.000Z"
+      },
+      {
+        "planId": "c32aa5ca-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:37:00Z",
+        "startTimeStamp": "2020-08-21T12:32:00Z",
+        "updatedTimeStamp": "2020-08-21T12:12:00.000Z"
+      },
+      {
+        "planId": "c32aa7e6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:42:00Z",
+        "startTimeStamp": "2020-08-21T12:37:00Z",
+        "updatedTimeStamp": "2020-08-21T12:17:00.000Z"
+      },
+      {
+        "planId": "c32aaa02-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:47:00Z",
+        "startTimeStamp": "2020-08-21T12:42:00Z",
+        "updatedTimeStamp": "2020-08-21T12:22:00.000Z"
+      },
+      {
+        "planId": "c32aac14-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:52:00Z",
+        "startTimeStamp": "2020-08-21T12:47:00Z",
+        "updatedTimeStamp": "2020-08-21T12:27:00.000Z"
+      },
+      {
+        "planId": "c32aae30-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:57:00Z",
+        "startTimeStamp": "2020-08-21T12:52:00Z",
+        "updatedTimeStamp": "2020-08-21T12:32:00.000Z"
+      }
+    ],
+    "extLineItemId": "1001"
+  },
+  {
+    "price": {
+      "cpm": 500,
+      "currency": "USD"
+    },
+    "sizes": [
+      {
+        "h": 60,
+        "w": 468
+      },
+      {
+        "h": 90,
+        "w": 728
+      }
+    ],
+    "dealId": 100004,
+    "source": "pgVendor",
+    "status": "active",
+    "accountId": 1004,
+    "targeting": {
+      "$and": [
+        {
+          "adunit.size": {
+            "$intersects": [
+              {
+                "h": 60,
+                "w": 468
+              },
+              {
+                "h": 90,
+                "w": 728
+              }
+            ]
+          }
+        },
+        {
+          "adunit.mediatype": {
+            "$intersects": [
+              "banner"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.country": {
+            "$in": [
+              "us"
+            ]
+          }
+        }
+      ]
+    },
+    "lineItemId": "pgVendor1-1004",
+    "endTimeStamp": "2020-08-21T16:57:00Z",
+    "frequencyCaps": [
+      {
+        "count": 24000000,
+        "fcapId": "pgVendor1-LI-1004",
+        "periods": 1,
+        "periodType": "hour"
+      }
+    ],
+    "startTimeStamp": "2020-08-21T11:22:00Z",
+    "relativePriority": 3,
+    "updatedTimeStamp": "2020-08-21T11:02:00Z",
+    "deliverySchedules": [
+      {
+        "planId": "c32c78a0-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T11:57:00Z",
+        "startTimeStamp": "2020-08-21T11:52:00Z",
+        "updatedTimeStamp": "2020-08-21T11:32:00.000Z"
+      },
+      {
+        "planId": "c32c7ac6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:02:00Z",
+        "startTimeStamp": "2020-08-21T11:57:00Z",
+        "updatedTimeStamp": "2020-08-21T11:37:00.000Z"
+      },
+      {
+        "planId": "c32c7cd8-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:07:00Z",
+        "startTimeStamp": "2020-08-21T12:02:00Z",
+        "updatedTimeStamp": "2020-08-21T11:42:00.000Z"
+      },
+      {
+        "planId": "c32c7ef4-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:12:00Z",
+        "startTimeStamp": "2020-08-21T12:07:00Z",
+        "updatedTimeStamp": "2020-08-21T11:47:00.000Z"
+      },
+      {
+        "planId": "c32c8106-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:17:00Z",
+        "startTimeStamp": "2020-08-21T12:12:00Z",
+        "updatedTimeStamp": "2020-08-21T11:52:00.000Z"
+      },
+      {
+        "planId": "c32c8322-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:22:00Z",
+        "startTimeStamp": "2020-08-21T12:17:00Z",
+        "updatedTimeStamp": "2020-08-21T11:57:00.000Z"
+      },
+      {
+        "planId": "c32c853e-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:27:00Z",
+        "startTimeStamp": "2020-08-21T12:22:00Z",
+        "updatedTimeStamp": "2020-08-21T12:02:00.000Z"
+      },
+      {
+        "planId": "c32c8750-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:32:00Z",
+        "startTimeStamp": "2020-08-21T12:27:00Z",
+        "updatedTimeStamp": "2020-08-21T12:07:00.000Z"
+      },
+      {
+        "planId": "c32c89a8-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:37:00Z",
+        "startTimeStamp": "2020-08-21T12:32:00Z",
+        "updatedTimeStamp": "2020-08-21T12:12:00.000Z"
+      },
+      {
+        "planId": "c32c8bc4-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:42:00Z",
+        "startTimeStamp": "2020-08-21T12:37:00Z",
+        "updatedTimeStamp": "2020-08-21T12:17:00.000Z"
+      },
+      {
+        "planId": "c32c8dd6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:47:00Z",
+        "startTimeStamp": "2020-08-21T12:42:00Z",
+        "updatedTimeStamp": "2020-08-21T12:22:00.000Z"
+      },
+      {
+        "planId": "c32c8fe8-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:52:00Z",
+        "startTimeStamp": "2020-08-21T12:47:00Z",
+        "updatedTimeStamp": "2020-08-21T12:27:00.000Z"
+      },
+      {
+        "planId": "c32c9204-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:57:00Z",
+        "startTimeStamp": "2020-08-21T12:52:00Z",
+        "updatedTimeStamp": "2020-08-21T12:32:00.000Z"
+      }
+    ],
+    "extLineItemId": "1004"
+  },
+  {
+    "price": {
+      "cpm": 500,
+      "currency": "USD"
+    },
+    "sizes": [
+      {
+        "h": 60,
+        "w": 468
+      },
+      {
+        "h": 90,
+        "w": 728
+      }
+    ],
+    "dealId": 100007,
+    "source": "pgVendor1",
+    "status": "active",
+    "accountId": 1007,
+    "targeting": {
+      "$and": [
+        {
+          "adunit.size": {
+            "$intersects": [
+              {
+                "h": 60,
+                "w": 468
+              },
+              {
+                "h": 90,
+                "w": 728
+              }
+            ]
+          }
+        },
+        {
+          "adunit.mediatype": {
+            "$intersects": [
+              "banner"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.country": {
+            "$in": [
+              "us"
+            ]
+          }
+        }
+      ]
+    },
+    "lineItemId": "pgVendor1-1007",
+    "endTimeStamp": "2020-08-21T16:57:00Z",
+    "frequencyCaps": [
+      {
+        "count": 24000000,
+        "fcapId": "pgVendor1-LI-1007",
+        "periods": 1,
+        "periodType": "hour"
+      }
+    ],
+    "startTimeStamp": "2020-08-21T11:22:00Z",
+    "relativePriority": 3,
+    "updatedTimeStamp": "2020-08-21T11:02:00Z",
+    "deliverySchedules": [
+      {
+        "planId": "c32e5a6c-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T11:57:00Z",
+        "startTimeStamp": "2020-08-21T11:52:00Z",
+        "updatedTimeStamp": "2020-08-21T11:32:00.000Z"
+      },
+      {
+        "planId": "c32e5c7e-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:02:00Z",
+        "startTimeStamp": "2020-08-21T11:57:00Z",
+        "updatedTimeStamp": "2020-08-21T11:37:00.000Z"
+      },
+      {
+        "planId": "c32e5e90-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:07:00Z",
+        "startTimeStamp": "2020-08-21T12:02:00Z",
+        "updatedTimeStamp": "2020-08-21T11:42:00.000Z"
+      },
+      {
+        "planId": "c32e60a2-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:12:00Z",
+        "startTimeStamp": "2020-08-21T12:07:00Z",
+        "updatedTimeStamp": "2020-08-21T11:47:00.000Z"
+      },
+      {
+        "planId": "c32e62b4-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:17:00Z",
+        "startTimeStamp": "2020-08-21T12:12:00Z",
+        "updatedTimeStamp": "2020-08-21T11:52:00.000Z"
+      },
+      {
+        "planId": "c32e64bc-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:22:00Z",
+        "startTimeStamp": "2020-08-21T12:17:00Z",
+        "updatedTimeStamp": "2020-08-21T11:57:00.000Z"
+      },
+      {
+        "planId": "c32e66ce-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:27:00Z",
+        "startTimeStamp": "2020-08-21T12:22:00Z",
+        "updatedTimeStamp": "2020-08-21T12:02:00.000Z"
+      },
+      {
+        "planId": "c32e68d6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:32:00Z",
+        "startTimeStamp": "2020-08-21T12:27:00Z",
+        "updatedTimeStamp": "2020-08-21T12:07:00.000Z"
+      },
+      {
+        "planId": "c32e6ade-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:37:00Z",
+        "startTimeStamp": "2020-08-21T12:32:00Z",
+        "updatedTimeStamp": "2020-08-21T12:12:00.000Z"
+      },
+      {
+        "planId": "c32e6ce6-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:42:00Z",
+        "startTimeStamp": "2020-08-21T12:37:00Z",
+        "updatedTimeStamp": "2020-08-21T12:17:00.000Z"
+      },
+      {
+        "planId": "c32e6f20-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:47:00Z",
+        "startTimeStamp": "2020-08-21T12:42:00Z",
+        "updatedTimeStamp": "2020-08-21T12:22:00.000Z"
+      },
+      {
+        "planId": "c32e7182-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:52:00Z",
+        "startTimeStamp": "2020-08-21T12:47:00Z",
+        "updatedTimeStamp": "2020-08-21T12:27:00.000Z"
+      },
+      {
+        "planId": "c32e73a8-e3a4-11ea-82da-06a5133f10bf",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 500000
+          }
+        ],
+        "endTimeStamp": "2020-08-21T12:57:00Z",
+        "startTimeStamp": "2020-08-21T12:52:00Z",
+        "updatedTimeStamp": "2020-08-21T12:32:00.000Z"
+      }
+    ],
+    "extLineItemId": "1007"
+  }
+]

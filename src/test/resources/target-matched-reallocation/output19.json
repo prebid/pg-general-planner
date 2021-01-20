@@ -1,0 +1,50 @@
+[
+  {
+    "serviceInstanceId": null,
+    "vendor": "vendor1",
+    "region": "us-east",
+    "instanceId": "host5",
+    "reallocationWeights": {
+      "weights": [
+        {
+          "weight": 31.66667,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "111"
+        }
+      ]
+    },
+    "updatedAt": null
+  },
+  {
+    "serviceInstanceId": null,
+    "vendor": "vendor1",
+    "region": "us-east",
+    "instanceId": "host6",
+    "reallocationWeights": {
+      "weights": [
+        {
+          "weight": 41.66666,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "111"
+        }
+      ]
+    },
+    "updatedAt": null
+  },
+  {
+    "serviceInstanceId": null,
+    "vendor": "vendor1",
+    "region": "us-east",
+    "instanceId": "host4",
+    "reallocationWeights": {
+      "weights": [
+        {
+          "weight": 26.66667,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "111"
+        }
+      ]
+    },
+    "updatedAt": null
+  }
+]

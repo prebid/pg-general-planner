@@ -1,0 +1,91 @@
+[
+  {
+    "lineItemId": "1111",
+    "dealId": "88888",
+    "accountId": "1001",
+    "source": "vendor1",
+    "status": "Active",
+    "priceFloor":{
+      "amount":1,
+      "currency":"USD"
+    },
+    "bidderCode": "vendor1",
+    "relativePriority": 3,
+    "startTimeStamp": "2019-02-01T03:00:00Z",
+    "updatedTimeStamp": "2019-01-31T13:16:44Z",
+    "targeting": {
+      "$and": [
+        {
+          "country": [
+            "us"
+          ]
+        },
+        {
+          "$or": [
+            {
+              "domain": {
+                "$equals": "foo.com"
+              }
+            },
+            {
+              "userSegment": [
+                {
+                  "source": "vendor1",
+                  "ids": [
+                    123,
+                    234
+                  ]
+                }
+              ]
+            },
+            {
+              "userSegment": [
+                {
+                  "source": "vendor2",
+                  "ids": [
+                    456,
+                    567
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mediaType": [
+            "banner"
+          ]
+        },
+        {
+          "size": [
+            {
+              "w": 300,
+              "h": 250
+            },
+            {
+              "w": 300,
+              "h": 600
+            }
+          ]
+        }
+      ]
+    },
+    "deliverySchedules": [
+      {
+        "planId": "1",
+        "startTimeStamp": "2019-02-01T06:00:00Z",
+        "endTimeStamp": "2019-01-31T22:16:44Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 5000
+          },
+          {
+            "class": 2,
+            "total": 125
+          }
+        ]
+      }
+    ]
+  }
+]

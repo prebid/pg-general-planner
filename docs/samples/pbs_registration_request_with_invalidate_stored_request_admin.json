@@ -1,0 +1,15 @@
+{
+  "storedrequest":{
+    "cmd":"invalidate",
+    "body":{
+      "requests":{
+        "id1":"R1",
+        "id2":"R2"
+      },
+      "imps":{
+        "impid1":"I1",
+        "impid2":"I2"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "app":"pbs",
+  "vendor":"pbs-hosting-vendor-1",
+  "regions":[
+    "us-west-1",
+    "us-east-1"
+  ],
+  "expiresInMinutes":2,
+  "tracer":{
+    "cmd":"start",
+    "raw":"true",
+    "durationInSeconds":45,
+    "filters":{
+      "accountId":"ACC123",
+      "bidderCode":"pgVendor1",
+      "lineItemId":"642534",
+      "region":"us-west",
+      "vendor":"local"
+    }
+  }
+}

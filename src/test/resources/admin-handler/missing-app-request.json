@@ -1,0 +1,18 @@
+{
+  "vendor": "vendor1",
+  "regions": ["us-east-1"],
+  "expiresInMinutes": 30,
+  "expiresAt": null,
+  "tracer": {
+    "cmd": "start",
+    "raw": false,
+    "enabled": true,
+    "filters": {
+      "accountId": "14554",
+      "bidderCode": "pg",
+      "lineItemId": "",
+      "region": "us-east-1",
+      "vendor": "vendor1"
+    }
+  }
+}

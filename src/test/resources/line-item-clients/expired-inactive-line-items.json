@@ -1,0 +1,68 @@
+[
+  {
+    "lineItemId":"456",
+    "bidderCode": "vendor1PG",
+    "dealId":"88888",
+    "accountId":"1001",
+    "source":"vendor1",
+    "status": "InActive",
+    "relativePriority":3,
+    "startTimeStamp":"2019-02-01T03:00:00Z",
+    "endTimeStamp":"2019-02-28T02:59:59Z",
+    "updatedTimeStamp":"2019-01-31T13:16:44Z",
+    "priceFloor": {
+      "amount": 1,
+      "currency": "USD"
+    },
+    "deliverySchedules":[
+      {
+        "planId":"1",
+        "startTimeStamp":"2019-02-01T06:00:00Z",
+        "endTimeStamp":"2019-01-31T22:16:44Z",
+        "tokens":[
+          {
+            "class":1,
+            "total":5000
+          },
+          {
+            "class":2,
+            "total":125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lineItemId":"457",
+    "bidderCode": "vendor1PG",
+    "dealId":"88888",
+    "accountId":"1001",
+    "source":"vendor1",
+    "status": "Inactive",
+    "relativePriority":3,
+    "startTimeStamp":"2019-02-01T03:00:00Z",
+    "endTimeStamp":"2019-02-28T02:59:59Z",
+    "updatedTimeStamp":"2019-01-31T13:16:44Z",
+    "priceFloor": {
+      "amount": 1,
+      "currency": "USD"
+    },
+    "deliverySchedules":[
+      {
+        "planId":"1",
+        "startTimeStamp":"2019-02-01T06:00:00Z",
+        "endTimeStamp":"2019-01-31T22:16:44Z",
+        "tokens":[
+          {
+            "class":1,
+            "total":5000
+          },
+          {
+            "class":2,
+            "total":125
+          }
+        ]
+      }
+    ]
+  }
+]

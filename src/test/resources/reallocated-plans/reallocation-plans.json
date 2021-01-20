@@ -1,0 +1,17 @@
+[
+  {
+    "serviceInstanceId": "pg1",
+    "vendor": "vendor1",
+    "region":"us-east",
+    "instanceId":"host1",
+    "reallocationWeights":{
+      "weights":[
+        {
+          "weight": 98,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "1111"
+        }
+      ]
+    }
+  }
+]

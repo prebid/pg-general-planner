@@ -1,0 +1,114 @@
+{
+  "tokenSpendSummaryLines": [
+    {
+      "reportId": "dd571289-4dce-4af0-b747-e58293651989",
+      "vendor": "pbs-hosting-vendor-1",
+      "region": "us-west-2",
+      "instanceId": "18374988a98649bc8460345f066e4bf2",
+      "bidderCode": "pgVendor1",
+      "lineItemId": "pgVendor1-2251",
+      "extLineItemId": "2251",
+      "dataWindowStartTimestamp": "2020-08-28T12:18:00.000Z",
+      "dataWindowEndTimestamp": "2020-08-28T12:19:00.000Z",
+      "reportTimestamp": "2020-08-28T12:19:00.000Z",
+      "serviceInstanceId": "NA",
+      "summaryData": {
+        "tokenSpent": [
+          {
+            "pc": -10,
+            "class": 1
+          }
+        ],
+        "targetMatched": 29
+      }
+    },
+    {
+      "reportId": "da13a8b4-d95a-40fd-bed9-1bb6be45b284",
+      "vendor": "pbs-hosting-vendor-1",
+      "region": "us-west-2",
+      "instanceId": "18374988a98649bc8460345f066e4bf2",
+      "bidderCode": "pgVendor1",
+      "lineItemId": "pgVendor1-2262",
+      "extLineItemId": "2262",
+      "dataWindowStartTimestamp": "2020-08-28T12:18:00.000Z",
+      "dataWindowEndTimestamp": "2020-08-28T12:19:00.000Z",
+      "reportTimestamp": "2020-08-28T12:19:00.000Z",
+      "serviceInstanceId": "NA",
+      "summaryData": {
+        "tokenSpent": [
+          {
+            "pc": -10,
+            "class": 1
+          }
+        ],
+        "targetMatched": 40
+      }
+    },
+    {
+      "reportId": "d7ee91b4-5286-4743-aec7-9b60e3373fb9",
+      "vendor": "pbs-hosting-vendor-1",
+      "region": "us-west-2",
+      "instanceId": "18374988a98649bc8460345f066e4bf2",
+      "bidderCode": "pgVendor1",
+      "lineItemId": "pgVendor1-2262",
+      "extLineItemId": "2262",
+      "dataWindowStartTimestamp": "2020-08-28T12:18:00.000Z",
+      "dataWindowEndTimestamp": "2020-08-28T12:19:00.000Z",
+      "reportTimestamp": "2020-08-28T12:19:00.000Z",
+      "serviceInstanceId": "NA",
+      "summaryData": {
+        "tokenSpent": [
+          {
+            "pc": -10,
+            "class": 1
+          }
+        ],
+        "targetMatched": 34
+      }
+    },
+    {
+      "reportId": "f87321f9-b2cc-4b3a-85c0-d0b42c7c9262",
+      "vendor": "pbs-hosting-vendor-1",
+      "region": "us-west-2",
+      "instanceId": "20c850bff1a642f4a2c5c89e55b70eec",
+      "bidderCode": "pgVendor1",
+      "lineItemId": "pgVendor1-2251",
+      "extLineItemId": "2251",
+      "dataWindowStartTimestamp": "2020-08-28T12:18:00.000Z",
+      "dataWindowEndTimestamp": "2020-08-28T12:19:00.000Z",
+      "reportTimestamp": "2020-08-28T12:19:00.000Z",
+      "serviceInstanceId": "NA",
+      "summaryData": {
+        "tokenSpent": [
+          {
+            "pc": -10,
+            "class": 1
+          }
+        ],
+        "targetMatched": 23
+      }
+    },
+    {
+      "reportId": "ef06e3d3-87c0-49f2-9af3-b5aaffb047c8",
+      "vendor": "pbs-hosting-vendor-1",
+      "region": "us-west-2",
+      "instanceId": "20c850bff1a642f4a2c5c89e55b70eec",
+      "bidderCode": "pgVendor1",
+      "lineItemId": "pgVendor1-2262",
+      "extLineItemId": "2262",
+      "dataWindowStartTimestamp": "2020-08-28T12:18:00.000Z",
+      "dataWindowEndTimestamp": "2020-08-28T12:19:00.000Z",
+      "reportTimestamp": "2020-08-28T12:19:00.000Z",
+      "serviceInstanceId": "NA",
+      "summaryData": {
+        "tokenSpent": [
+          {
+            "pc": -10,
+            "class": 1
+          }
+        ],
+        "targetMatched": 0
+      }
+    }
+  ]
+}

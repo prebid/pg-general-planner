@@ -1,0 +1,12 @@
+{
+  "tracer":{
+    "cmd":"start",
+    "raw":"true",
+    "durationInSeconds":"3000",
+    "filters":{
+      "accountId":"ACC123",
+      "bidderCode":"pgVendor1",
+      "lineItemId":"642534"
+    }
+  }
+}

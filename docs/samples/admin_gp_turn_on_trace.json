@@ -1,0 +1,16 @@
+{
+  "app":"gp",
+  "expiresInMinutes":2,
+  "tracer":{
+    "cmd":"stop",
+    "raw":"true",
+    "durationInSeconds":45,
+    "filters":{
+      "accountId":"ACC123",
+      "bidderCode":"pgVendor1",
+      "lineItemId":"642534",
+      "region":"us-west-1",
+      "vendor":"vendor1"
+    }
+  }
+}

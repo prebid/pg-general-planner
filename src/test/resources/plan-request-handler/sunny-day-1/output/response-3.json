@@ -1,0 +1,169 @@
+[
+  {
+    "lineItemId": "pgbidder1-1111",
+    "dealId": "88888",
+    "accountId": "1001",
+    "source": "pgbidder1",
+    "bidderCode": "pgbidder1",
+    "status": "active",
+    "relativePriority": 3,
+    "startTimeStamp": "2019-02-01T03:00:00Z",
+    "endTimeStamp": "2029-02-28T02:59:59Z",
+    "updatedTimeStamp": "2019-01-31T13:16:44Z",
+    "targeting": {
+      "$and": [
+        {
+          "country": [
+            "us"
+          ]
+        },
+        {
+          "$or": [
+            {
+              "domain": {
+                "$equals": "foo.com"
+              }
+            },
+            {
+              "userSegment": [
+                {
+                  "ids": [
+                    123,
+                    234
+                  ],
+                  "source": "bidder1"
+                }
+              ]
+            },
+            {
+              "userSegment": [
+                {
+                  "ids": [
+                    456,
+                    567
+                  ],
+                  "source": "bidder2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mediaType": [
+            "banner"
+          ]
+        },
+        {
+          "size": [
+            {
+              "h": 250,
+              "w": 300
+            },
+            {
+              "h": 600,
+              "w": 300
+            }
+          ]
+        }
+      ]
+    },
+    "deliverySchedules": [
+      {
+        "planId": "1",
+        "startTimeStamp": "2019-02-01T06:00:00Z",
+        "endTimeStamp": "2029-01-31T22:16:44Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 4900
+          },
+          {
+            "class": 2,
+            "total": 125
+          }
+        ],
+        "updatedTimeStamp": "2020-04-20T23:20:57Z"
+      },
+      {
+        "planId": "2",
+        "startTimeStamp": "2019-02-01T07:06:15Z",
+        "endTimeStamp": "2029-01-31T22:16:44Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 2450
+          },
+          {
+            "class": 2,
+            "total": 13
+          }
+        ],
+        "updatedTimeStamp": "2020-04-20T23:20:57Z"
+      },
+      {
+        "planId": "3",
+        "startTimeStamp": "2019-02-01T06:00:00Z",
+        "endTimeStamp": "2029-01-31T22:15:32Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 539
+          },
+          {
+            "class": 2,
+            "total": 15
+          }
+        ],
+        "updatedTimeStamp": "2020-04-20T23:20:57Z"
+      },
+      {
+        "planId": "4",
+        "startTimeStamp": "2019-02-01T07:06:15Z",
+        "endTimeStamp": "2029-01-31T22:15:32Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 514
+          }
+        ],
+        "updatedTimeStamp": "2020-04-20T23:20:57Z"
+      }
+    ],
+    "extLineItemId": "1111"
+  },
+  {
+    "lineItemId": "pgbidder1-1112",
+    "bidderCode": "pgbidder1",
+    "dealId": "88888",
+    "accountId": "1001",
+    "source": "pgbidder1",
+    "status": "Inactive",
+    "relativePriority": 3,
+    "startTimeStamp": "2019-02-01T03:00:00Z",
+    "endTimeStamp": "2029-02-28T02:59:59Z",
+    "updatedTimeStamp": "2019-01-31T13:16:44Z",
+    "priceFloor": {
+      "amount": 1,
+      "currency": "USD"
+    },
+    "extLineItemId": "1112"
+  },
+  {
+    "lineItemId": "pgbidder1-1113",
+    "bidderCode": "pgbidder1",
+    "dealId": "88888",
+    "accountId": "1001",
+    "source": "pgbidder1",
+    "status": "Inactive",
+    "relativePriority": 3,
+    "startTimeStamp": "2019-02-01T03:00:00Z",
+    "endTimeStamp": "2029-02-28T02:59:59Z",
+    "updatedTimeStamp": "2019-01-31T13:16:44Z",
+    "priceFloor": {
+      "amount": 1,
+      "currency": "USD"
+    },
+    "deliverySchedules": [],
+    "extLineItemId": "1113"
+  }
+]

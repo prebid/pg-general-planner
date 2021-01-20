@@ -1,0 +1,16 @@
+{
+  "serviceInstanceId":null,
+  "vendor": "vendor1",
+  "region":"us-east",
+  "instanceId":"fhbp-pbs0000.iad3.fanops.net",
+  "reallocationWeights":{
+    "weights":[
+      {
+        "weight":98,
+        "bidderCode":"pgbidder1",
+        "lineItemId":"1111"
+      }
+    ]
+  },
+  "updatedAt": "2019-01-30T20:15:32Z"
+}

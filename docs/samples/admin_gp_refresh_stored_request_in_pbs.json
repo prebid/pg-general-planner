@@ -1,0 +1,22 @@
+{
+  "app":"pbs",
+  "vendor":"pbs-hosting-vendor-1",
+  "regions":[
+    "us-west-1",
+    "us-east-1"
+  ],
+  "expiresInMinutes":2,
+  "storedrequest":{
+    "cmd":"save",
+    "body":{
+      "requests":{
+        "id1":"R1",
+        "id2":"R2"
+      },
+      "imps":{
+        "impid1":"I1",
+        "impid2":"I2"
+      }
+    }
+  }
+}

@@ -1,0 +1,651 @@
+[
+  {
+    "lineItemId": "2291",
+    "dealId": "710216",
+    "accountId": "2763",
+    "price": {
+      "cpm": 729,
+      "currency": "EUR"
+    },
+    "relativePriority": 2,
+    "sizes": [
+      {
+        "w": 468,
+        "h": 60
+      },
+      {
+        "w": 728,
+        "h": 90
+      },
+      {
+        "w": 234,
+        "h": 60
+      },
+      {
+        "w": 160,
+        "h": 600
+      },
+      {
+        "w": 1024,
+        "h": 90
+      }
+    ],
+    "frequencyCaps": [
+      {
+        "fcapId": "LI-2291",
+        "count": 3254,
+        "periods": 1,
+        "periodType": "day"
+      }
+    ],
+    "targeting": {
+      "$and": [
+        {
+          "adunit.size": {
+            "$intersects": [
+              {
+                "h": 60,
+                "w": 468
+              },
+              {
+                "h": 90,
+                "w": 728
+              },
+              {
+                "h": 60,
+                "w": 234
+              },
+              {
+                "h": 600,
+                "w": 160
+              },
+              {
+                "h": 90,
+                "w": 1024
+              }
+            ]
+          }
+        },
+        {
+          "adunit.mediatype": {
+            "$intersects": [
+              "banner"
+            ]
+          }
+        },
+        {
+          "segment.vendor1": {
+            "$intersects": [
+              "51270",
+              "31964",
+              "51266"
+            ]
+          }
+        },
+        {
+          "device.ext.deviceatlas.browser": {
+            "$in": [
+              "Chrome",
+              "Firefox"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.country": {
+            "$in": [
+              "us",
+              "jp"
+            ]
+          }
+        },
+        {
+          "adunit.adslot": {
+            "$in": [
+              "/112115922/HB_QA_Tests"
+            ]
+          }
+        },
+        {
+          "app.bundle": {
+            "$in": [
+              "com.company.calendar",
+              "com.tmz"
+            ]
+          }
+        }
+      ]
+    },
+    "startTimeStamp": "2020-08-28T07:22:14.000Z",
+    "endTimeStamp": "2020-08-30T17:22:14.000Z",
+    "updatedTimeStamp": "2020-08-28T06:22:15.000Z",
+    "deliverySchedules": [
+      {
+        "planId": "2656177",
+        "startTimeStamp": "2020-08-28T11:40:00.000Z",
+        "endTimeStamp": "2020-08-28T11:45:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:46:30.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 8
+          }
+        ]
+      },
+      {
+        "planId": "2656178",
+        "startTimeStamp": "2020-08-28T11:45:00.000Z",
+        "endTimeStamp": "2020-08-28T11:50:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:38:19.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 8
+          }
+        ]
+      },
+      {
+        "planId": "2656179",
+        "startTimeStamp": "2020-08-28T11:50:00.000Z",
+        "endTimeStamp": "2020-08-28T11:55:00.000Z",
+        "updatedTimeStamp": "2020-08-28T10:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2656180",
+        "startTimeStamp": "2020-08-28T11:55:00.000Z",
+        "endTimeStamp": "2020-08-28T12:00:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:48:06.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 8
+          }
+        ]
+      },
+      {
+        "planId": "2663801",
+        "startTimeStamp": "2020-08-28T12:00:00.000Z",
+        "endTimeStamp": "2020-08-28T12:05:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663802",
+        "startTimeStamp": "2020-08-28T12:05:00.000Z",
+        "endTimeStamp": "2020-08-28T12:10:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663803",
+        "startTimeStamp": "2020-08-28T12:10:00.000Z",
+        "endTimeStamp": "2020-08-28T12:15:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663804",
+        "startTimeStamp": "2020-08-28T12:15:00.000Z",
+        "endTimeStamp": "2020-08-28T12:20:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663805",
+        "startTimeStamp": "2020-08-28T12:20:00.000Z",
+        "endTimeStamp": "2020-08-28T12:25:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663806",
+        "startTimeStamp": "2020-08-28T12:25:00.000Z",
+        "endTimeStamp": "2020-08-28T12:30:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663807",
+        "startTimeStamp": "2020-08-28T12:30:00.000Z",
+        "endTimeStamp": "2020-08-28T12:35:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663808",
+        "startTimeStamp": "2020-08-28T12:35:00.000Z",
+        "endTimeStamp": "2020-08-28T12:40:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663809",
+        "startTimeStamp": "2020-08-28T12:40:00.000Z",
+        "endTimeStamp": "2020-08-28T12:45:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663810",
+        "startTimeStamp": "2020-08-28T12:45:00.000Z",
+        "endTimeStamp": "2020-08-28T12:50:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663811",
+        "startTimeStamp": "2020-08-28T12:50:00.000Z",
+        "endTimeStamp": "2020-08-28T12:55:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      },
+      {
+        "planId": "2663812",
+        "startTimeStamp": "2020-08-28T12:55:00.000Z",
+        "endTimeStamp": "2020-08-28T13:00:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 7
+          }
+        ]
+      }
+    ],
+    "source": "vendor1",
+    "status": "active"
+  },
+  {
+    "lineItemId": "2290",
+    "dealId": "710215",
+    "accountId": "2763",
+    "price": {
+      "cpm": 331,
+      "currency": "EUR"
+    },
+    "relativePriority": 5,
+    "sizes": [
+      {
+        "w": 468,
+        "h": 60
+      },
+      {
+        "w": 728,
+        "h": 90
+      },
+      {
+        "w": 234,
+        "h": 60
+      },
+      {
+        "w": 160,
+        "h": 600
+      },
+      {
+        "w": 1024,
+        "h": 90
+      }
+    ],
+    "frequencyCaps": [
+      {
+        "fcapId": "LI-2290",
+        "count": 7032,
+        "periods": 1,
+        "periodType": "day"
+      }
+    ],
+    "targeting": {
+      "$and": [
+        {
+          "adunit.size": {
+            "$intersects": [
+              {
+                "h": 60,
+                "w": 468
+              },
+              {
+                "h": 90,
+                "w": 728
+              },
+              {
+                "h": 90,
+                "w": 1024
+              },
+              {
+                "h": 50,
+                "w": 320
+              },
+              {
+                "h": 90,
+                "w": 1000
+              },
+              {
+                "h": 60,
+                "w": 234
+              },
+              {
+                "h": 600,
+                "w": 160
+              }
+            ]
+          }
+        },
+        {
+          "adunit.mediatype": {
+            "$intersects": [
+              "banner"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.country": {
+            "$in": [
+              "us"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.metro": {
+            "$in": [
+              "602"
+            ]
+          }
+        },
+        {
+          "device.geo.ext.netacuity.region": {
+            "$in": [
+              "14"
+            ]
+          }
+        },
+        {
+          "device.ext.deviceatlas.browser": {
+            "$in": [
+              "Chrome"
+            ]
+          }
+        },
+        {
+          "device.ext.deviceatlas.make": {
+            "$in": [
+              "Google"
+            ]
+          }
+        },
+        {
+          "device.ext.deviceatlas.osfamily": {
+            "$in": [
+              "macOS"
+            ]
+          }
+        },
+        {
+          "device.ext.deviceatlas.type": {
+            "$in": [
+              "Desktop"
+            ]
+          }
+        }
+      ]
+    },
+    "startTimeStamp": "2020-08-28T07:22:10.000Z",
+    "endTimeStamp": "2020-08-29T06:22:10.000Z",
+    "updatedTimeStamp": "2020-08-28T06:22:10.000Z",
+    "deliverySchedules": [
+      {
+        "planId": "2656165",
+        "startTimeStamp": "2020-08-28T11:40:00.000Z",
+        "endTimeStamp": "2020-08-28T11:45:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:46:29.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 46
+          }
+        ]
+      },
+      {
+        "planId": "2656166",
+        "startTimeStamp": "2020-08-28T11:45:00.000Z",
+        "endTimeStamp": "2020-08-28T11:50:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:38:19.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 47
+          }
+        ]
+      },
+      {
+        "planId": "2656167",
+        "startTimeStamp": "2020-08-28T11:50:00.000Z",
+        "endTimeStamp": "2020-08-28T11:55:00.000Z",
+        "updatedTimeStamp": "2020-08-28T10:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 43
+          }
+        ]
+      },
+      {
+        "planId": "2656168",
+        "startTimeStamp": "2020-08-28T11:55:00.000Z",
+        "endTimeStamp": "2020-08-28T12:00:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:48:06.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 47
+          }
+        ]
+      },
+      {
+        "planId": "2663789",
+        "startTimeStamp": "2020-08-28T12:00:00.000Z",
+        "endTimeStamp": "2020-08-28T12:05:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663790",
+        "startTimeStamp": "2020-08-28T12:05:00.000Z",
+        "endTimeStamp": "2020-08-28T12:10:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663791",
+        "startTimeStamp": "2020-08-28T12:10:00.000Z",
+        "endTimeStamp": "2020-08-28T12:15:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663792",
+        "startTimeStamp": "2020-08-28T12:15:00.000Z",
+        "endTimeStamp": "2020-08-28T12:20:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663793",
+        "startTimeStamp": "2020-08-28T12:20:00.000Z",
+        "endTimeStamp": "2020-08-28T12:25:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663794",
+        "startTimeStamp": "2020-08-28T12:25:00.000Z",
+        "endTimeStamp": "2020-08-28T12:30:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663795",
+        "startTimeStamp": "2020-08-28T12:30:00.000Z",
+        "endTimeStamp": "2020-08-28T12:35:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663796",
+        "startTimeStamp": "2020-08-28T12:35:00.000Z",
+        "endTimeStamp": "2020-08-28T12:40:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663797",
+        "startTimeStamp": "2020-08-28T12:40:00.000Z",
+        "endTimeStamp": "2020-08-28T12:45:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663798",
+        "startTimeStamp": "2020-08-28T12:45:00.000Z",
+        "endTimeStamp": "2020-08-28T12:50:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663799",
+        "startTimeStamp": "2020-08-28T12:50:00.000Z",
+        "endTimeStamp": "2020-08-28T12:55:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      },
+      {
+        "planId": "2663800",
+        "startTimeStamp": "2020-08-28T12:55:00.000Z",
+        "endTimeStamp": "2020-08-28T13:00:00.000Z",
+        "updatedTimeStamp": "2020-08-28T11:04:12.000Z",
+        "tokens": [
+          {
+            "class": 1,
+            "total": 45
+          }
+        ]
+      }
+    ],
+    "source": "vendor1",
+    "status": "active"
+  }
+]

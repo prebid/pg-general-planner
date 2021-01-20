@@ -1,0 +1,34 @@
+[
+  {
+    "serviceInstanceId": null,
+    "vendor": "vendor1",
+    "region": "us-east",
+    "instanceId": "host3",
+    "reallocationWeights": {
+      "weights": [
+        {
+          "weight": 50,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "111"
+        }
+      ]
+    },
+    "updatedAt": null
+  },
+  {
+    "serviceInstanceId": null,
+    "vendor": "vendor1",
+    "region": "us-east",
+    "instanceId": "host4",
+    "reallocationWeights": {
+      "weights": [
+        {
+          "weight": 50,
+          "bidderCode": "pgvendor1",
+          "lineItemId": "111"
+        }
+      ]
+    },
+    "updatedAt": null
+  }
+]

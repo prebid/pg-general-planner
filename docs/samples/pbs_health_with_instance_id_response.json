@@ -1,0 +1,176 @@
+[
+  {
+    "instanceId": "ca93667285e34d51a8073e6c1dae2d32",
+    "region": "us-west-1",
+    "vendor": "pbs-hosting-vendor-1",
+    "status": {
+      "dealsStatus": {
+        "region": "us-west-1",
+        "vendor": "pbs-hosting-vendor-1",
+        "reportId": "b1276b41-9713-460e-90f2-b2ac37970dcd",
+        "instanceId": "ca93667285e34d51a8073e6c1dae2d32",
+        "clientAuctions": 0,
+        "lineItemStatus": [
+          {
+            "dealId": "100004",
+            "events": [],
+            "readyAt": "2020-08-21T13:12:00.001Z",
+            "lineItemId": "pgVendor1-1004",
+            "spentTokens": 0,
+            "sentToBidder": 0,
+            "sentToClient": 0,
+            "domainMatched": 0,
+            "extLineItemId": "1004",
+            "targetMatched": 0,
+            "lineItemSource": "pgVendor1",
+            "pacingDeferred": 0,
+            "pacingFrequency": 0,
+            "deliverySchedule": [
+              {
+                "planId": "c32c989e-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:07:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:47:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:12:00.000Z"
+              },
+              {
+                "planId": "c32c9aec-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:12:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:52:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:17:00.000Z"
+              }
+            ],
+            "receivedFromBidder": 0,
+            "sentToBidderAsTopMatch": 0,
+            "sentToClientAsTopMatch": 0,
+            "targetMatchedButFcapped": 0,
+            "receivedFromBidderInvalidated": 0,
+            "targetMatchedButFcapLookupFailed": 0
+          },
+          {
+            "dealId": "100001",
+            "events": [],
+            "readyAt": "2020-08-21T13:12:00.001Z",
+            "lineItemId": "pgVendor1-1001",
+            "spentTokens": 0,
+            "sentToBidder": 0,
+            "sentToClient": 0,
+            "domainMatched": 0,
+            "extLineItemId": "1001",
+            "targetMatched": 0,
+            "lineItemSource": "pgVendor1",
+            "pacingDeferred": 0,
+            "pacingFrequency": 0,
+            "deliverySchedule": [
+              {
+                "planId": "c32ab68c-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:12:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:52:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:17:00.000Z"
+              },
+              {
+                "planId": "c32ab47a-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:07:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:47:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:12:00.000Z"
+              }
+            ],
+            "receivedFromBidder": 0,
+            "sentToBidderAsTopMatch": 0,
+            "sentToClientAsTopMatch": 0,
+            "targetMatchedButFcapped": 0,
+            "receivedFromBidderInvalidated": 0,
+            "targetMatchedButFcapLookupFailed": 0
+          },
+          {
+            "dealId": "100007",
+            "events": [],
+            "readyAt": "2020-08-21T13:12:00.001Z",
+            "lineItemId": "pgVendor1-1007",
+            "spentTokens": 0,
+            "sentToBidder": 0,
+            "sentToClient": 0,
+            "domainMatched": 0,
+            "extLineItemId": "1007",
+            "targetMatched": 0,
+            "lineItemSource": "pgVendor1",
+            "pacingDeferred": 0,
+            "pacingFrequency": 0,
+            "deliverySchedule": [
+              {
+                "planId": "c32e79d4-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:07:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:47:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:12:00.000Z"
+              },
+              {
+                "planId": "c32e7bdc-e3a4-11ea-82da-06a5133f10bf",
+                "tokens": [
+                  {
+                    "class": 1,
+                    "spent": 0,
+                    "total": 500000,
+                    "totalSpent": 0
+                  }
+                ],
+                "planStartTimeStamp": "2020-08-21T13:12:00.000Z",
+                "planUpdatedTimeStamp": "2020-08-21T12:52:00.000Z",
+                "planExpirationTimeStamp": "2020-08-21T13:17:00.000Z"
+              }
+            ],
+            "receivedFromBidder": 0,
+            "sentToBidderAsTopMatch": 0,
+            "sentToClientAsTopMatch": 0,
+            "targetMatchedButFcapped": 0,
+            "receivedFromBidderInvalidated": 0,
+            "targetMatchedButFcapLookupFailed": 0
+          }
+        ],
+        "reportTimeStamp": "2020-08-21T13:14:32.395Z"
+      },
+      "currencyRates": {
+        "lastUpdate": "2020-08-21T13:06:32.554Z"
+      }
+    },
+    "latestRegistrationTimeStamp": "2020-08-21T13:14:32.000Z"
+  }
+]

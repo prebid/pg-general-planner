@@ -1,0 +1,138 @@
+http:
+  port: 8080
+  idle-timeout-sec: 10
+  base-url: /general-planner/api/v1
+  admin-base-url: /general-planner-admin/api/v1
+
+vertx:
+  http-server-instances: 1
+  worker-pool-size: 20
+
+deployment:
+  # possible values: test, algotest, prod
+  profile: test
+  # possible values: ecs, vm
+  infra: vm
+  data-center: aws
+  region: us-west-1
+  system: PG
+  sub-system: "General Planner"
+
+database:
+  general-planner:
+    dbname: gp
+    user: gp
+    password: gp
+    host: localhost
+    port: 3306
+    initial-pool-size: 30
+    min-pool-size: 30
+    max-pool-size: 30
+    max-idle-time-sec: 300
+    circuit-breaker:
+      opening-threshold: 10
+      closing-interval-sec: 5
+
+http-client:
+  max-pool-size: 5
+  connect-timeout-sec: 5
+  circuit-breaker:
+    opening-threshold: 10
+    closing-interval-sec: 5
+
+api:
+  line-items-tokens-summary:
+    page-size: 1000
+
+services:
+  pbs-max-idle-period-sec: 300
+  algotest:
+    delivery-data:
+      start-time-in-past-sec: 315
+    planner-adapters:
+      future-plan-hours: 12
+  delivery-data:
+    enabled: true
+    username: stats_user
+    password: stats_password
+    initial-delay-sec: 30
+    refresh-period-sec: 30
+    timeout-sec: 30
+    start-time-in-past-sec : 315
+    url: http://localhost:6001/stats
+  host-reallocation:
+    enabled: true
+    initial-delay-sec: 60
+    refresh-period-sec: 30
+    db-store-batch-size: 100
+    reallocation-updated-since-min: 10
+    line-item-has-expired-min: 60
+    algorithm: org.prebid.pg.gp.server.services.TargetMatchedBasedTokenReallocation
+    algorithm-spec:
+      non-adjustable-share-percent: 90
+  tokens-summary:
+    enabled: true
+    run-on-minute: 47
+    initial-delay-minute: 60
+    granular-summary-minute: 3
+  planner-adapters:
+    db-store-batch-size: 100
+    planners:
+      - name: vendor1
+        enabled: true
+        username: vendor1_user
+        password: vendor1_password
+        initial-delay-sec: 30
+        refresh-period-sec: 60
+        timeout-sec: 30
+        url: https://localhost:4000/api/v1/planner-adaptor/delivery-schedules-x
+        bidder-code-prefix: pg
+  alert-proxy:
+    enabled: false
+    url: http://localhost:18080/alerting/api/v1/raiseAlert
+    timeout-sec: 5
+    username: gp_user
+    password: gp_password
+    policies:
+      - alert-name: default
+        initial-alerts: 2
+        alert-frequency: 10
+error:
+  message: "Service is temporarily unavailable, please try again later"
+
+server-auth:
+  authentication-enabled: true
+  principals:
+    - username: user1
+      password: password1
+      roles: pbs, some_other_2
+    - username: user2
+      password: password2
+      roles: pbs, some_other_1
+    - username: user3
+      password: password3
+      roles: readOnly
+    - username: admin
+      password: admin
+      roles: admin
+
+server-api-roles:
+  registration: pbs
+  plan-request: pbs
+  tracer: admin
+  pbs-health: readOnly
+
+metrics:
+  graphite:
+    enabled: false
+    prefix: aws.usw1.header-bidding.ecs.header-bidding.pg-central.gp-localhost
+    host: localhost
+    port: 3003
+    interval: 30
+
+admin:
+  apps: gp, pbs, delstats
+  db-store-batch-size: 100
+  tracer:
+    max-duration-in-seconds: 900
+

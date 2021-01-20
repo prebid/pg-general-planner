@@ -1,0 +1,8 @@
+{
+  "vendor": "vendor1",
+  "region":"us-east",
+  "hostInstanceId":"fhbp-pbs0000.iad3.fanops.net",
+  "healthIndex":null,
+  "adReqsPerSec":null,
+  "createdAt":null
+}

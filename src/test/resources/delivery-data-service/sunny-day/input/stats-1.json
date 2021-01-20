@@ -1,0 +1,76 @@
+{
+   "tokenSpendSummaryLines":[
+      {
+         "reportId":"02a2638c-9026-4ae4-9280-fdebb1eb1950",
+         "vendor":"vendor1",
+         "region":"us-east-1",
+         "instanceId":"instance-1",
+         "bidderCode":"vendor1",
+         "lineItemId":"L-111",
+         "dataWindowStartTimestamp":"2019-02-01T07:13:00Z",
+         "dataWindowEndTimestamp":"2019-02-01T07:13:00Z",
+         "reportTimestamp":"2019-02-01T07:13:00Z",
+         "summaryData": {
+          "targetMatched": 16,
+          "tokenSpent": [
+            {
+              "pc": 102,
+              "class": 1
+            },
+            {
+              "pc": 80,
+              "class": 2
+            }
+          ]
+        }
+      },
+      {
+         "reportId":"091cbbab-8cd3-4f7f-8310-08840cb297f6",
+         "vendor":"vendor1",
+         "region":"us-east-1",
+         "instanceId":"instance-1",
+         "bidderCode":"vendor1",
+         "lineItemId":"L-111",
+         "dataWindowStartTimestamp":"2019-02-01T07:13:00Z",
+         "dataWindowEndTimestamp":"2019-02-01T07:13:00Z",
+         "reportTimestamp":"2019-02-01T07:13:00Z",
+         "summaryData": {
+          "targetMatched": 16,
+          "tokenSpent": [
+            {
+              "pc": 102,
+              "class": 1
+            },
+            {
+              "pc": 80,
+              "class": 2
+            }
+          ]
+        }
+      },
+      {
+         "reportId":"091cbbab-8cd3-4f7f-8310-08840cb297e6",
+         "vendor":"vendor1",
+         "region":"us-east-1",
+         "instanceId":"instance-1",
+         "bidderCode":"vendor1",
+         "lineItemId":"L-111",
+         "dataWindowStartTimestamp":"2019-02-01T07:13:00Z",
+         "dataWindowEndTimestamp":"2019-02-01T07:13:00Z",
+         "reportTimestamp":"2019-02-01T07:13:00Z",
+         "summaryData": {
+          "targetMatched": 16,
+          "tokenSpent": [
+            {
+              "pc": 102,
+              "class": 1
+            },
+            {
+              "pc": 80,
+              "class": 2
+            }
+          ]
+        }
+      }
+   ]
+}
