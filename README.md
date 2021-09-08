@@ -51,7 +51,7 @@ cd pg-general-planner
 
 - Run below command to build project:
 ```bash
-mvn clean package
+mvn clean verify package
 ```
 
 
